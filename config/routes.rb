@@ -1,4 +1,23 @@
 Rails.application.routes.draw do
+
+
+  resources :twuuts 
+
+end
+
+
+# Routes as of 6/6/14 10:42 AM: 
+# Jeffs-MacBook-Pro-2:twutter Jeff$ rake routes
+#     Prefix Verb   URI Pattern                Controller#Action
+#     twuuts GET    /twuuts(.:format)          twuuts#index
+#            POST   /twuuts(.:format)          twuuts#create
+#  new_twuut GET    /twuuts/new(.:format)      twuuts#new
+# edit_twuut GET    /twuuts/:id/edit(.:format) twuuts#edit
+#      twuut GET    /twuuts/:id(.:format)      twuuts#show
+#            PATCH  /twuuts/:id(.:format)      twuuts#update
+#            PUT    /twuuts/:id(.:format)      twuuts#update
+#            DELETE /twuuts/:id(.:format)      twuuts#destroy
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -53,4 +72,3 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-end
