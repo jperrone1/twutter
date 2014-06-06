@@ -1,0 +1,2 @@
+class TwuutsController < ApplicationController
+end

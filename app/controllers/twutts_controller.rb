@@ -1,2 +1,0 @@
-class TwuttsController < ApplicationController
-end
